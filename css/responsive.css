@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+    section {
+        min-height: 90vh;
+    }
+    
+    .common-tit {
+        font-size: 15vw;
+    }
+    
+    /* Section1 : Main */
+    #main {
+        height: 100vh;
+    }
+    
+    .main__title {
+        font-size: 21vw;
+    }
+    
+    /* Section2 : Work */
+    .work__slide {
+        height: 55vh;
+    }
+    
+    .work__slide strong {
+        font-size: 12vw;
+    }
+    
+    /* Section3 : Practice */
+    .practice__tit {
+        font-size: 6vw;
+        padding: 2%;
+    }
+    
+    .practice__tit:hover,
+    .practice__tit.active {
+        padding-left: 4%;
+    }
+    
+    .practice__tit.active + .practice__swiper {
+        padding: 3% 0;
+    }
+    
+    .practice__item {
+        width: 50%;
+    }
+    
+    /* Section4 : Graphics */
+    .graphics__item {
+        width: 45%;
+        height: 20vh;
+    }
+    
+    /* Section5 : Contact */
+    #contact {
+        min-height: 35vh;
+    }
+    
+    .contact__wrap {
+        justify-content: center;
+        flex-direction: column;
+        min-height: 40vh;
+    }
+    
+    .contact__tit{
+        font-size: 6vw;
+    }
+    
+    .contact__text p {
+        margin: 3% 0;
+        font-size: 3.3vw;
+    }
+    
+    .contact__info {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: flex-start;
+        grid-gap: 10px;
+        width: 100%;
+        margin: 0;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    
+    .contact__info:hover {
+        color: #dd4a48;
+    }
+    
+    .contact__info li:nth-child(3) {
+        flex: 1;
+        width: 100%;
+        font-size: 6vw;
+        text-align: left;
+        color: transparent;
+        -webkit-text-stroke: 1.2px #dd4a48;
+    }
+    
+    .contact__info a {
+        display: inline-block;
+        width: 25vw;
+        padding: 5%;
+        border: 1px solid;
+        border-radius: 30px;
+    }
+    
+    .contact__info a:hover {
+        background-color: #dd4a48;
+        text-decoration: none;
+        color: #fffefb;
+    }
+    
+    .contact__info span {
+        top: 10%; left: 80%;
+        width: 30%; height: 20%;
+    }
+    
+    .contact__info:hover span {
+        background-color: transparent;
+    }
+    
+    
+    footer {
+        padding: 0 5%;
+    }
+}
