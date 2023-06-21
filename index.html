@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- UIkit -->
+    <link rel="stylesheet" href="css/uikit.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.21/dist/js/uikit.min.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom -->
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <a href="#" class="header__logo">WPP</a>
+            <nav class="header__nav">
+                <a href="#work">WORK</a>
+                <a href="#practice">PRACTICE</a>
+                <a href="#graphics">GRAPHICS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <main class="wrapper">
+            <!-- section1 : main -->
+            <section id="main">
+                <h1 class="main__title">
+                    <div>Web Publisher</div>
+                    <div>Portfolio</div>
+                </h1>
+            </section>
+            <!-- //section1 : main -->
+            <!-- section2 : work -->
+            <section id="work">
+                <h2 class="common-tit" data-aos="fade-up">
+                    WORK
+                </h2>
+                <div class="work__swiper swiper" data-aos="fade-left" data-aos-offset="200">
+                    <ul class="work__wrap swiper-wrapper">
+                        <li class="work__slide swiper-slide" style="--img:url(../img/work1.jpg)">
+                            <strong>01</strong>
+                            <article class="work__article">
+                                <h3>벤앤제리스</h3>
+                                <div class="work__desc">
+                                    <p>
+                                        반응형으로 제작된 브랜드 소개 페이지<br>
+                                        <span>#Slick</span> <span>#Fullpage</span> <span>#JQuery</span>
+                                    </p>
+                                    <div class="work__link">
+                                        <a href="https://gogi7979.github.io/benjerry/" target="_blank">Go Site</a>
+                                        <a href="https://velog.io/@gogi7979/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%86%8C%EA%B0%9C%ED%8E%98%EC%9D%B4%EC%A7%80" target="_blank">Code Review</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="work__slide swiper-slide" style="--img:url(../img/work2.jpg)">
+                            <strong>02</strong>
+                            <article class="work__article">
+                                <h3>시티건설</h3>
+                                <div class="work__desc">
+                                    <p>
+                                        반응형으로 제작된 기업 메인페이지<br>
+                                        <span>#Slick</span> <span>#AOS</span> <span>#JQuery</span>
+                                    </p>
+                                    <div class="work__link">
+                                        <a href="https://gogi7979.github.io/cityconst/" target="_blank">Go Site</a>
+                                        <a href="https://velog.io/@gogi7979/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EC%97%85-%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80" target="_blank">Code Review</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="work__slide swiper-slide" style="--img:url(../img/work3.jpg)">
+                            <strong>03</strong>
+                            <article class="work__article">
+                                <h3>CGV</h3>
+                                <div class="work__desc">
+                                    <p>
+                                        모바일 클론 코딩<br>
+                                        <span>#Swiper</span> <span>#JQuery</span>
+                                    </p>
+                                    <div class="work__link">
+                                        <a href="https://gogi7979.github.io/cgv/" target="_blank">Go Site</a>
+                                        <a href="https://velog.io/@gogi7979/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AA%A8%EB%B0%94%EC%9D%BC-CGV-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9" target="_blank">Code Review</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- //section2 : work -->
+            <!-- section3 : practice -->
+            <section id="practice">
+                <h2 class="common-tit" data-aos="fade-up">PRACTICE</h2>
+                <ul class="practice__accordion">
+                    <li class="practice__list" data-aos="fade-up">
+                        <h3 class="practice__tit active">Navigation</h3>
+                        <div class="practice__swiper swiper">
+                            <ul class="practice__con swiper-wrapper" uk-lightbox="animation: slide">
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav01.html" class="practice__link">
+                                        <img src="img/nav1.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav02.html" class="practice__link">
+                                        <img src="img/nav2.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav03.html" class="practice__link">
+                                        <img src="img/nav3.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav04.html" class="practice__link">
+                                        <img src="img/nav4.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav05.html" class="practice__link">
+                                        <img src="img/nav5.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav06.html" class="practice__link">
+                                        <img src="img/nav6.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav07.html" class="practice__link">
+                                        <img src="img/nav7.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/nav08.html" class="practice__link">
+                                        <img src="img/nav8.png">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </li>
+                    <li class="practice__list" data-aos="fade-up">
+                        <h3 class="practice__tit">Hover Effect</h3>
+                        <div class="practice__swiper swiper">
+                            <ul class="practice__con swiper-wrapper" uk-lightbox="animation: slide">
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover01.html" class="practice__link">
+                                        <img src="img/hover1.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover02.html" class="practice__link">
+                                        <img src="img/hover2.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover03.html" class="practice__link">
+                                        <img src="img/hover3.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover04.html" class="practice__link">
+                                        <img src="img/hover4.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover05.html" class="practice__link">
+                                        <img src="img/hover5.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover06.html" class="practice__link">
+                                        <img src="img/hover6.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover07.html" class="practice__link">
+                                        <img src="img/hover7.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/hover08.html" class="practice__link">
+                                        <img src="img/hover8.png">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </li>
+                    <li class="practice__list" data-aos="fade-up">
+                        <h3 class="practice__tit">Form & Modal</h3>
+                        <div class="practice__swiper swiper">
+                            <ul class="practice__con swiper-wrapper" uk-lightbox="animation: slide">
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/form01.html" class="practice__link">
+                                        <img src="img/form1.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/form02.html" class="practice__link">
+                                        <img src="img/form2.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/form03.html" class="practice__link">
+                                        <img src="img/form3.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/form04.html" class="practice__link">
+                                        <img src="img/form4.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/modal01.html" class="practice__link">
+                                        <img src="img/modal1.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/modal02.html" class="practice__link">
+                                        <img src="img/modal2.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/modal03.html" class="practice__link">
+                                        <img src="img/modal3.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/modal04.html" class="practice__link">
+                                        <img src="img/modal4.png">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </li>
+                    <li class="practice__list" data-aos="fade-up">
+                        <h3 class="practice__tit">Accordion & Tab</h3>
+                        <div class="practice__swiper swiper">
+                            <ul class="practice__con swiper-wrapper" uk-lightbox="animation: slide">
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/accordion01.html" class="practice__link">
+                                        <img src="img/accordion1.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/accordion02.html" class="practice__link">
+                                        <img src="img/accordion2.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/accordion03.html" class="practice__link">
+                                        <img src="img/accordion3.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/accordion04.html" class="practice__link">
+                                        <img src="img/accordion4.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/tab01.html" class="practice__link">
+                                        <img src="img/tab1.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/tab02.html" class="practice__link">
+                                        <img src="img/tab2.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/tab03.html" class="practice__link">
+                                        <img src="img/tab3.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/tab04.html" class="practice__link">
+                                        <img src="img/tab4.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/tab05.html" class="practice__link">
+                                        <img src="img/tab5.png">
+                                    </a>
+                                </li>
+                                <li class="practice__item swiper-slide">
+                                    <a href="https://gogi7979.github.io/practice/tab06.html" class="practice__link">
+                                        <img src="img/tab6.png">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- //section3 : practice -->
+            <!-- section4 : graphics -->
+            <section id="graphics">
+                <h2 class="common-tit" data-aos="fade-up">GRAPHICS</h2>
+                <ul class="graphics__wrap" uk-lightbox="animation: slide">
+                    <li class="graphics__item" data-aos="flip-up">
+                        <a href="img/graphics1.html" data-caption="웹페이지 디자인 - PhotoShop, Illustrator" class="graphics__link">
+                            <img src="img/graphics1.jpg">
+                        </a>
+                    </li>
+                    <li class="graphics__item" data-aos="flip-up" data-aos-delay="200">
+                        <a href="img/graphics2.html" data-caption="UXUI 리디자인 - Figma" class="graphics__link">
+                            <img src="img/graphics2.jpg">
+                        </a>
+                    </li>
+                    <li class="graphics__item" data-aos="flip-up" data-aos-delay="400">
+                        <a href="img/graphics3.html" data-caption="캘린더 디자인 - PhotoShop, Illustrator"class="graphics__link">
+                            <img src="img/graphics3.jpg">
+                        </a>
+                    </li>
+                    <li class="graphics__item" data-aos="flip-up" data-aos-delay="400">
+                        <a href="img/graphics4.jpg" data-type="image" data-caption="일러스트 - Procreate"class="graphics__link">
+                            <img src="img/graphics4.jpg">
+                        </a>
+                    </li>
+                    <li class="graphics__item" data-aos="flip-up" data-aos-delay="600">
+                        <a href="img/graphics5.jpg" data-type="image" data-caption="일러스트 - Procreate"class="graphics__link">
+                            <img src="img/graphics5.jpg">
+                        </a>
+                    </li>
+                    <li class="graphics__item" data-aos="flip-up" data-aos-delay="800">
+                        <a href="img/graphics6.jpg" data-type="image" data-caption="일러스트 - Procreate"class="graphics__link">
+                            <img src="img/graphics6.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- //section4 : graphics -->
+            <!-- section5 : contact-->
+            <section id="contact">
+                <h2 class="common-tit" data-aos="fade-up" data-aos-delay="200">CONTACT</h2>
+                <div class="contact__wrap">
+                    <div class="contact__text">
+                        <h3 class="contact__tit" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                            <span>배움의 자세</span>와 될 때까지 하는 <span>끈기</span>로<br>
+                            현재에 안주하지 않는 퍼블리셔<span></span>
+                        </h3>
+                        <p data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
+                            어느 환경에서나 잘 적응하는 탄탄한 퍼블리싱을 지향합니다.<br>
+                            감각적이고 인터랙티브한 웹구현에 관심이 있어 <br>
+                            꾸준히 성장하는 능동적인 퍼블리셔가 될 것입니다.
+                        </p>
+                    </div>
+                    <ul class="contact__info">
+                        <li><a href="https://velog.io/@gogi7979" target="_blank">Velog</a></li>
+                        <li><a href="https://open.kakao.com/o/s5p0WSpf" target="_blank">Message</a></li>
+                        <li>gogi7979@gmail.com</li>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </ul>
+                </div>
+            </section>
+            <!-- //section5 : contact -->
+        </main>
+        <footer>
+            <p>© 2023. HYUNA ALL RIGHT RESERVED</p>
+        </footer>
+    </div>
+</body>
+</html>
