@@ -19,12 +19,18 @@ $(function(){
     
     //Section2 : Work Swiper and MouseEvent
     var swiper1 = new Swiper(".work__swiper", {
-        slidesPerView: "auto",
-        spaceBetween: 50,
+        slidesPerView : 1,
+        spaceBetween : 20,
         autoplay: {
             delay: 2500,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
+        },
+        breakpoints: {
+            768 : {
+                slidesPerView: "auto",
+                spaceBetween : 50,
+            },
         },
     });
     
