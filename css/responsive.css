@@ -10,7 +10,7 @@
     
     /* Section1 : Main */
     #main {
-        height: 90vh;
+        height: 85vh;
     }
     
     .main__title {
@@ -19,8 +19,8 @@
     
     /* Section2 : Work */
     .work__slide {
-        width: 100%;
-        height: 55vh;
+        width: 100% !important;
+        height: 50vh;
     }
     
     .work__slide strong {
