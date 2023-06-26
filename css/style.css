@@ -118,12 +118,14 @@ section {
     height: 80vh;
     padding: 3%;
     background: var(--img) no-repeat center center rgba(0, 0, 0, 0.9);
+    background-size: cover;
     background-blend-mode: luminosity;
     transition: 0.5s;
 }
 
 .work__slide:hover {
     background: var(--img) no-repeat center center rgba(0, 0, 0, 0.2);
+    background-size: cover;
 }
 
 .work__slide strong {
